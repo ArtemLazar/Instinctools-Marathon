@@ -1,0 +1,108 @@
+.img-circle {
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 200;
+    height: 200;
+    margin: 20 50 0 60;
+}
+
+.vertical-align {
+    top: 50%;
+    text-align: center;
+    position: relative;
+    transform: translateY(-125%);
+}
+
+.navbar {
+    margin: 20 0 50 75;
+    border: 2px solid black;
+    width: 150;
+}
+
+.navbar li {
+    padding: 25;
+    list-style-type: none;
+    margin: 0 0 0 -10;
+}
+
+.navbar li a img {
+    display: inline-block;
+    width: 45;
+}
+
+.navbar li a p {
+    display: inline-block;
+    font-size: 20;
+    height: 15;    
+    color: black;
+    text-align: center;
+    }
+
+#pictures {
+    margin-left: -14;
+}
+
+#about {
+    margin-left: -4;
+}
+
+.heading {
+    border: 2px solid black;
+    margin: 20 0 0 0;
+    height: 360;
+}
+
+.heading h1 {
+    margin: 20;
+}
+
+.heading p {
+    margin: 20;
+    font-size: 24;
+    text-align: left;
+}
+
+.subscribe {
+    text-align: right;
+    font-size: 20;
+}
+
+.subscribe p {
+    display: inline-block;
+    margin: 20 0 0 0;
+}
+
+.subscribe input[type="text"] {
+    border: 2px solid black;
+    padding: 3;
+}
+
+.subscribe input[type="submit"] {
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+}
+
+.line hr {
+    border: 2px solid black;
+}
+
+.footer-left {
+    font-size: 18;
+}
+
+.footer-left p {
+    font-size: 14;
+}
+
+.footer-left a {
+    text-decoration: underline;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right img {
+    width: 60;
+}

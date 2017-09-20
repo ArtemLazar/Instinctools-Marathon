@@ -1,0 +1,7 @@
+.task1, .task2, .task3{
+    text-align: center;
+}
+
+.task1 p, .task2 p, .task3p {
+    font-size: 20px;
+}
