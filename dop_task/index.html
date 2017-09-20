@@ -10,16 +10,13 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">*Instinctools</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <a class="navbar-brand" href="#">*Instinctools</a>
+                <ul class="nav navbar-nav pull-xs-right">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses
-                  <span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">HTML</a></li>
                             <li><a href="#">CSS</a></li>
@@ -30,14 +27,35 @@
                             <li><a href="#">ObjectiveC</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">About</a></li>
-                    <ul class="nav navbar-nav navbar-reft">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
+                    <li class="nav-item"><a href="#">Contacts</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                            Sign In<span class="caret"></span>    
+                                        </a>
+                            <div class="dropdown-menu" id="formLogin">
+                                <div class="row">
+                                    <div class="container-fluid">
+                                        <form>
+                                            <div class="form-group">
+                                                <label>Username</label>
+                                                <input class="form-control" name="username" id="username" type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Password</label>
+                                                <input class="form-control" name="password" id="password" type="password"><br>
+                                            </div>
+                                            <button type="submit" id="btnLogin" class="btn btn-success btn-sm">Login</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#modalRegister">Register</a>
+                        </li>
+                    </li>
                 </ul>
-            </div>
+        </div>
         </nav>
 
         <div class="col-lg-12">
@@ -51,8 +69,8 @@
                 <div class="input-group">
                     <input class="form-control" type="text" placeholder="Email Address" id="email">
                     <span class="input-group-btn">
-                            <button class="btn btn-isverse" type="button" id="button_sign">Subscribe</button>
-                            <span class="glyphicon glyphicon-search"></span>
+                    <button class="btn btn-isverse" type="button" id="button_sign">Subscribe</button>
+                    <span class="glyphicon glyphicon-search"></span>
                     </span>
                 </div>
             </div>
@@ -99,6 +117,7 @@
                 <img src="images/twitter.png">
             </div>
         </div>
+    </div>
     </div>
 </body>
 

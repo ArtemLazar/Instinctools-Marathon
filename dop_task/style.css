@@ -1,17 +1,15 @@
+
+#formLogin {
+    padding: 15px;
+    min-width: 300px;
+}
+
 #button {
     border-radius: 5px;
 }
 
 #search {
     border-radius: 5px;
-}
-
-#pictures {
-    margin-left: -14;
-}
-
-#about {
-    margin-left: -4;
 }
 
 .heading {
